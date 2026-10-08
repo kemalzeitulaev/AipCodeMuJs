@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script src="script.js"></script>
+		<script src="script2.js"></script>
+		<script src="script3.js"></script>
+		<script src="18.js"></script>
+		<script> //28
+			let name = 'Kemal';
+			let surname = 'Zeitulaev';
+
+			alert(name);     
+			alert(surname);   
+		</script>
+		<script> //29
+			let str1 = '!!!';
+			alert(str1);   
+			let str2 = 'java';
+			let str3 = 'script';
+
+			alert(str2 + str3);   
+			let str4 = 'hello';
+			let str5 = 'world';
+
+			alert(str4 + ' ' + str5);   
+		</script>
+		<script> //30
+			let str8 = 'Привет, мир!';
+			alert(str8.length);  
+		</script>
+		<script> //32
+			let str10 = `a
+			b
+			c`;
+			alert(str10);
+		</script>
+		<script> //34
+			let und1;
+			alert(und1);
+		</script>
+		<script>// 35
+			let nul1 = null;
+			alert(nul1);
+		</script>
+		<script> //36
+			let bool1 = true;
+			alert(bool1);
+			let bool2 = false;
+			alert(bool2);
+		</script>
+		<script>// 37
+			let strC1 = 'abc';
+			let strD1 = 'def';
+
+			alert(strC1 * strD1);   // NaN
+		</script>
+		<script>// 38
+			let div1 = 10 / 0;
+			alert(div1);
+			let div2 = -10 / 0;
+			alert(div2);
+		</script>
+		<script>// 39
+			let con1 = 'значение переменной';
+			console.log(con1);
+			let con2 = 100;
+			let con3 = 'текст';
+			let con4 = true;
+
+			console.log(con2);   
+			console.log(con3);   
+			console.log(con4);   
+		</script>
+		<script>// 40
+			console.log('строка');            
+			console.log(42);                  
+			console.log(3.14);                
+			console.log(true);                
+			console.log(false);               
+			console.log(null);                
+			console.log(undefined);           
+		</script>
+		<script>// 41
+			let myVar1 = 10;
+			console.log(myVar1);
+		</script>
+		<script>//42
+			const PI1 = 3.14159;
+			let radius1 = 10;
+
+			let length1 = 2 * PI1 * radius1;
+			console.log(length1);   
+		</script>
+		<script>// 44
+			let a1 = '10';
+			let b1 = '20';
+
+			alert(Number(a1) + Number(b1));  
+		</script>
+		<script>// 45
+			{
+				let a = +'2';
+				let b = +'3';
+
+				alert(a + b);
+			}
+		</script>
+		<script>// 47
+			let a2 = '5px';
+			let b2 = '6px';
+
+			let sum = parseInt(a2) + parseInt(b2);
+			alert(sum); 
+
+			let a4 = '5.5px';
+			let b4 = '6.25px';
+
+			let sum2 = parseFloat(a2) + parseFloat(b2);
+			console.log(sum2); 
+			let a3 = '5.5px';
+			let b3 = '6.25px';
+
+			let sum3 = parseFloat(a3) + parseFloat(b3);
+			console.log(sum3 + 'px'); 
+		</script>
+		<script>//48
+			let num1 = 12;
+			let num2 = 34;
+
+			let str = String(num1) + String(num2);
+			console.log(str); 
+		</script>
+		<script>//49
+			let num3 = 12345;
+
+			let str6 = String(num3);
+			console.log(str6.length);
+			let num5 = 123;
+			let num4 = 45678;
+
+			let digits2 = String(num5).length; 
+			let digits3 = String(num4).length; 
+
+			let sum8 = digits2 + digits3;
+			console.log(sum8); 
+		</script>
+		<script>// 52
+			{
+				let str7 = 'abcde';
+
+				console.log(str7[0]);
+				console.log(str7[2]);
+				console.log(str7[4]);
+				let str9 = 'abcde';
+
+				let reversed = str9[4] + str9[3] + str9[2] + str9[1] + str9[0];
+				console.log(reversed);
+				let str0 = 'abcde';
+				let num = 3;
+
+				console.log(str0[num]);
+			}
+		</script>
+		<script>// 54
+			let str11 = 'abcde';
+
+			console.log(str11[str11.length - 1]); 
+			let str22 = 'abcde';
+
+			console.log(str22[str22.length - 2]); 
+			let str33 = 'abcde';
+
+			console.log(str33[str33.length - 3]); 
+		</script>
+		<script>// 55
+			let str32 = '12345';
+
+			let sum12 = Number(str32[0]) + Number(str32[1]) + Number(str32[2]) + Number(str32[3]) + Number(str32[4]);
+			console.log(sum12); 
+		</script>
+		<script>// 56
+			let num12 = 12345;
+			let str13 = String(num12); 
+
+			let sum34 = Number(str13[0]) + Number(str13[1]) + Number(str13[2]) + Number(str13[3]) + Number(str13[4]);
+			console.log(sum34); 
+
+			let num21 = 12345;
+			let str21 = String(num21);
+
+			let product = Number(str21[0]) * Number(str21[1]) * Number(str21[2]) * Number(str21[3]) * Number(str21[4]);
+			console.log(product); 
+
+			let num31 = 12345;
+			let str31 = String(num31); 
+
+			let reversed1 = str31[4] + str31[3] + str31[2] + str31[1] + str31[0];
+			console.log(reversed1); 
+		</script>
+		<script>// 62
+			let age = prompt('Введите ваш возраст:');
+				alert('ваш возраст: ' + age);
+		</script>
+		<script>// 66
+			let num100 = 24 * 60 * 60;
+			alert(num100); // 86400
+			let num101 = 30 * 24 * 60 * 60;
+			alert(num101); // 2592000
+			let num102 = 365 * 24 * 60 * 60;
+			alert(num102); // 31536000
+			let num103 = 24 * 60;
+			alert(num103); // 1440
+			let num104 = 365 * 24 * 60;
+			alert(num104); // 525600
+			let num105 = 1024 * 1024;
+			alert(num105); // 1048576
+			let num106 = 1024 * 1024 * 1024;
+			alert(num106); // 1073741824
+			let num107 = 10 * 1024 * 1024 * 1024;
+			alert(num107); // 10737418240
+			let num108 = 1024 * 1024 * 1024 * 1024;
+			alert(num108); // 1099511627776
+			let num109 = 1024 * 1024 * 1024;
+			alert(num109); // 1073741824
+		</script>
+		<script>// 67
+			let rx = 5;
+			let sx = Math.PI * rx * rx;
+			alert(sx); 
+			let ax = 4;
+			let sx2 = ax * ax;
+			alert(sx2); 
+			let ax2 = 3;
+			let bx = 5;
+			let sx3 = ax2 * bx;
+			alert(sx3); 
+			let ax3 = 3;
+			let bx2 = 5;
+			let px = 2 * (ax3 + bx2);
+			alert(px); 
+			let tcx = 25;
+			let tfx = tcx * 9 / 5 + 32;
+			alert(tfx); 
+			let tfx2 = 77;
+			let tcx2 = (tfx2 - 32) * 5 / 9;
+			alert(tcx2); 
+			
+		</script>
+		<script>//
+			
+		</script>
+		<script>//
+			
+		</script>
+		<script>//
+			
+		</script>
+		<script>//
+			
+		</script>
+		<script>//
+			
+		</script>
+		
+		
+	</head>
+	<body>
+		
+	</body>
+</html>
