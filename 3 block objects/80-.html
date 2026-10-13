@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Объекты в JavaScript</title>
+</head>
+<body>
+    <script>
+            var task26_days = {
+                1: 'Понедельник',
+                2: 'Вторник',
+                3: 'Среда',
+                4: 'Четверг',
+                5: 'Пятница',
+                6: 'Суббота',
+                7: 'Воскресенье'
+            };
+
+            console.log(task26_days[1]);
+            console.log(task26_days[2]);
+            console.log(task26_days[3]);
+            console.log(task26_days[4]);
+            console.log(task26_days[5]);
+            console.log(task26_days[6]);
+            console.log(task26_days[7]);
+    </script>
+    <script>
+        var task27_months = {
+            1: 'Январь',
+            2: 'Февраль',
+            3: 'Март',
+            4: 'Апрель',
+            5: 'Май',
+            6: 'Июнь',
+            7: 'Июль',
+            8: 'Август',
+            9: 'Сентябрь',
+            10: 'Октябрь',
+            11: 'Ноябрь',
+            12: 'Декабрь'
+        };
+
+        console.log(task27_months);
+    </script>
+    <script>
+        var task28_user = {
+            name: 'Олег',
+            surname: 'Олегов',
+            patronymic: 'Олегович'
+        };
+
+        alert(task28_user.surname + ' ' + task28_user.name + ' ' + task28_user.patronymic);
+    </script>   
+    <script>
+        var task29_date = {
+            year: 2026,
+            month: 10,
+            day: 12
+        };
+
+        alert(task29_date.year + '-' + task29_date.month + '-' + task29_date.day);
+    </script>   
+    <script>
+        var task32_obj = { x: 1, y: 2, z: 3 };
+
+        task32_obj.x = task32_obj.x * task32_obj.x;
+        task32_obj.y = task32_obj.y * task32_obj.y;
+        task32_obj.z = task32_obj.z * task32_obj.z;
+
+        console.log(task32_obj);
+    </script>
+    <script>
+        var task33_obj = {};
+
+        task33_obj.a = 1;
+        task33_obj.b = 2;
+        task33_obj.c = 3;
+        task33_obj.d = 4;
+        task33_obj.e = 5;
+
+        console.log(task33_obj);
+    </script>
+    <script>
+        var task34_obj1 = { a: 1, b: 2, c: 3 };
+        var task34_obj2 = { c: 3, a: 1, b: 2 };
+
+        console.log(task34_obj1.a); // 1
+        console.log(task34_obj2.a); // 1
+        console.log(task34_obj1.b); // 2
+        console.log(task34_obj2.b); // 2
+        console.log(task34_obj1.c); // 3
+        console.log(task34_obj2.c); // 3
+
+        console.log(task34_obj1);
+        console.log(task34_obj2);
+    </script>
+    <script>
+        var task35b_keys = ['x', 'y', 'z'];
+        console.log(task35b_keys);
+    </script>
+    <script>
+        var task36_obj = { x: 1, y: 2, z: 3 };
+        var task36_count = Object.keys(task36_obj).length;
+
+        console.log(task36_count);
+    </script>
+    <script>
+    var task37_obj = { x: 1, y: 2, z: 3 };
+    var task37_key = 'y';
+
+    console.log(task37_obj[task37_key]);
+    </script>
+    <script>
+    var task42_key1 = 'x';
+    var task42_key2 = 'y';
+    var task42_key3 = 'z';
+
+    var task42_obj = {
+        [task42_key1]: 1,
+        [task42_key2]: 2,
+        [task42_key3]: 3
+    };
+
+    console.log(task42_obj);
+    </script>
+    <script>
+    const task69_arr = [1, 2, 3, 4, 5];
+    const task69_res = task69_arr[1] + task69_arr[2];
+
+    console.log(task69_res);
+    </script>
+</body>
+</html>

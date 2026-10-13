@@ -1,0 +1,159 @@
+№84
+
+b2 и e5. Остальные только в кавычках.
+
+<script>
+    var task31_obj = {
+        '1a': 1,
+        'b2': 2,
+        'c-c': 3,
+        'd 4': 4,
+        'e5': 5
+    };
+
+    console.log(task31_obj['1a']);
+    console.log(task31_obj.b2);
+    console.log(task31_obj['c-c']);
+    console.log(task31_obj['d 4']);
+    console.log(task31_obj.e5);
+</script>
+
+№91
+
+let obj = {x: 1, y: 2, z: 3};
+console.log(obj['x']);
+
+let obj = {x: 1, y: 2, z: 3};
+let key = 'x';
+console.log(obj[key]);
+
+№ 92
+
+let obj = {x: 1, y: 2, z: 3};
+
+let prop = 'x';
+console.log(obj.[prop]);
+
+let obj = {x: 1, y: 2, z: 3};
+
+let prop = 'x';
+console.log(obj[prop]);
+
+№ 93
+
+let key = 'x';
+
+let obj = {
+	[key]: 1,
+	y: 2,
+	z: 3
+};
+
+№ 94
+
+true
+false
+
+№ 95
+
+false
+
+№ 96
+
+'object'
+
+'object'
+
+'object'
+
+'number'
+
+№ 97
+
+'object'
+
+'object'
+
+'object'
+
+'number'
+
+'string'
+
+№ 98
+
+true
+
+false
+
+№ 99
+
+Выведется: сам объект {x: 1, y: 2, z: 3}.
+Тип: объект (сложный тип).
+
+Выведется: 1.
+Тип: примитив (число, number).
+
+Выведется: массив [1, 2, 3].
+Тип: объект.
+
+Выведется: 2.
+Тип: примитив (число, number).
+
+Выведется: массив [1, 2, 3].
+Тип: объект.
+
+Выведется: 2.
+Тип: примитив (число, number).
+
+number	
+string	
+boolean	
+undefined
+null
+
+№ 100
+
+['a', 2, 3]
+
+['a', 'b', 3]
+
+['b', 2, 3]
+
+№ 101
+
+['a', '!', 'c']
+
+Uncaught TypeError: Assignment to constant variable.
+
+Uncaught TypeError: Assignment to constant variable.
+
+№ 102
+
+ TypeError: Assignment to constant variable.
+
+ № 103
+
+ <script>
+    var task70_obj = { x: 1, y: 2, z: 3 };
+    console.log(task70_obj.x);
+</script>
+
+<script>
+    var task71_obj = { x: 1, y: 2, z: 3 };
+    var task71_key = 'x';
+
+    console.log(task71_obj[task71_key]);
+</script>
+
+<script>
+    var task72_obj = { x: 1, y: 2, z: 3 };
+    var task72_sum = task72_obj.x + task72_obj.y + task72_obj.z;
+
+    console.log(task72_sum);
+</script>
+
+<script>
+    var task73_obj = { x: 1, y: 2, z: 3 };
+    console.log(Object.keys(task73_obj).length);
+</script>
