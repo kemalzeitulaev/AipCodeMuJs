@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Условия в JavaScript</title>
+</head>
+<body>
+    <script>
+        var task74_test = 15;
+
+        if (task74_test > 10) {
+            console.log('+++');
+        } else {
+            console.log('---');
+        }
+    </script>
+    <script>
+    var task75_test = 5;
+
+    if (task75_test < 10) {
+        console.log('+++');
+    } else {
+        console.log('---');
+    }
+    </script>
+    <script>
+    var task76_test = 15;
+
+    if (task76_test >= 10) {
+        console.log('+++');
+    } else {
+        console.log('---');
+    }
+    </script>
+    <script>
+    var task77_test = 5;
+
+    if (task77_test <= 10) {
+        console.log('+++');
+    } else {
+        console.log('---');
+    }
+    </script>
+    <script>
+    var task78_test = 10;
+
+    if (task78_test == 10) {
+        console.log('+++');
+    } else {
+        console.log('---');
+    }
+    </script>
+    <script>
+    var task79_test = 5;
+
+    if (task79_test !== 10) {
+        console.log('+++');
+    } else {
+        console.log('---');
+    }
+    </script>
+    <script>
+    var task80_test1 = 15;
+    var task80_test2 = 10;
+
+    if (task80_test1 > task80_test2) {
+        console.log('test1 больше test2');
+    } else if (task80_test1 < task80_test2) {
+        console.log('test2 больше test1');
+    } else {
+        console.log('значения равны');
+    }
+    </script>
+    <script>
+    var task81_test1 = 10;
+    var task81_test2 = 10;
+
+    if (task81_test1 == task81_test2) {
+        console.log('значения равны');
+    } else {
+        console.log('значения не равны');
+    }
+    </script>
+    <script>
+    var task82_test1 = 'hello';
+    var task82_test2 = 'hello';
+
+    if (task82_test1 == task82_test2) {
+        console.log('строки равны');
+    } else {
+        console.log('строки не равны');
+    }
+    </script>
+    <script>
+    var task83b_test1 = '123';
+    var task83b_test2 = 123;
+
+    if (task83b_test1 == task83b_test2) {
+        console.log('значения равны');
+    } else {
+        console.log('значения не равны');
+    }
+    </script>
+    <script>
+    var task94_num = 3;
+
+    if (task94_num > 0 && task94_num < 5) {
+        console.log('+++');
+    } else {
+        console.log('---');
+    }
+    </script>
+    <script>
+    var task95_num = 15;
+
+    if (task95_num >= 10 && task95_num <= 20) {
+        console.log('+++');
+    } else {
+        console.log('---');
+    }
+    </script>
+    <script>
+    var task96_num1 = 1;
+    var task96_num2 = 5;
+
+    if (task96_num1 <= 1 && task96_num2 >= 3) {
+        console.log('+++');
+    } else {
+        console.log('---');
+    }
+    </script>
+    <script>
+    var task109_num1 = 5;
+    var task109_num2 = 5;
+
+    if (!(task109_num1 >= 0 || task109_num2 <= 10)) {
+        console.log('+++');
+    } else {
+        console.log('---');
+    }
+    </script>
+    <script>
+    var task110_test = true;
+
+    if (task110_test === true) {
+        console.log('+++');
+    } else {
+        console.log('---');
+    }
+    </script>
+    <script>
+    var task111_test = false;
+
+    if (task111_test === false) {
+        console.log('+++');
+    } else {
+        console.log('---');
+    }
+    </script>
+    <script>
+    var task120_test = true;
+
+    if (task120_test) {
+        console.log('+++');
+    } else {
+        console.log('---');
+    }
+    </script>
+    <script>
+    var task121_test = true;
+
+    if (!task121_test) {
+        console.log('+++');
+    } else {
+        console.log('---');
+    }
+    </script>
+    <script>
+    var task122_test = true;
+
+    if (!task122_test) {
+        console.log('+++');
+    } else {
+        console.log('---');
+    }
+    </script>
+    <script>
+    var task123_test = true;
+
+    if (task123_test) {
+        console.log('+++');
+    } else {
+        console.log('---');
+    }
+    </script>
+    <script>
+    var task134_test1 = true;
+    var task134_test2 = true;
+
+    if (task134_test1 && task134_test2) {
+        console.log('+++');
+    } else {
+        console.log('---');
+    }
+    </script>
+    <script>
+    var task135_test1 = true;
+    var task135_test2 = true;
+
+    if (task135_test1 && !task135_test2) {
+        console.log('+++');
+    } else {
+        console.log('---');
+    }
+    </script>
+    <script>
+    var task136_test1 = true;
+    var task136_test2 = true;
+
+    if (!task136_test1 && !task136_test2) {
+        console.log('+++');
+    } else {
+        console.log('---');
+    }
+    </script>
+    <script>
+    var task137_test1 = true;
+    var task137_test2 = true;
+
+    if (task137_test1 && task137_test2) {
+        console.log('+++');
+    } else {
+        console.log('---');
+    }
+    </script>
+    <script>
+    var task138_test1 = true;
+    var task138_test2 = true;
+    var task138_test3 = true;
+
+    if (task138_test1 && task138_test2 && task138_test3) {
+        console.log('+++');
+    } else {
+        console.log('---');
+    }
+    </script>
+    <script>
+    var task139_test1 = true;
+    var task139_test2 = true;
+    var task139_test3 = true;
+
+    if (task139_test1 || task139_test2 && task139_test3) {
+        console.log('+++');
+    } else {
+        console.log('---');
+    }
+    </script>
+    <script>
+    var task140_test1 = true;
+    var task140_test2 = true;
+    var task140_test3 = true;
+
+    if (task140_test1 || !task140_test2 && !task140_test3) {
+        console.log('+++');
+    } else {
+        console.log('---');
+    }
+    </script>
+    <script>
+    var task141_test = 10;
+
+    if (task141_test === 10) {
+        console.log('yes');
+    }
+    </script>
+    <script>
+    var task142_test = 1;
+
+    if (task142_test > 0) console.log('+++');
+    else console.log('---');
+    </script>
+    <script>
+    var task143_test = 1;
+
+    if (task143_test > 0) console.log('+++');
+    </script>
+    <script>
+    var task144_day = 15;
+
+    if (task144_day >= 1 && task144_day <= 10) {
+        console.log('первая декада');
+    } else if (task144_day >= 11 && task144_day <= 20) {
+        console.log('вторая декада');
+    } else if (task144_day >= 21 && task144_day <= 31) {
+        console.log('третья декада');
+    }
+    </script>
+    <script>
+    var task145_day = 15;
+
+    if (task145_day < 1 || task145_day > 31) {
+        console.log('ошибка: число должно быть от 1 до 31');
+    } else if (task145_day <= 10) {
+        console.log('первая декада');
+    } else if (task145_day <= 20) {
+        console.log('вторая декада');
+    } else {
+        console.log('третья декада');
+    }
+    </script>
+    <script>
+    var task146_num = 47;
+
+    if (task146_num >= 10 && task146_num <= 99) {
+        var task146_tens = (task146_num - task146_num % 10) / 10;
+        var task146_ones = task146_num % 10;
+        var task146_sum = task146_tens + task146_ones;
+
+        if (task146_sum <= 9) {
+            console.log('сумма цифр однозначна');
+        } else {
+            console.log('сумма цифр двузначна');
+        }
+    }
+    </script>
+    <script>
+    var task147_lang = 'ru';
+
+    switch (task147_lang) {
+        case 'ru':
+            console.log('rus');
+            break;
+        case 'en':
+            console.log('eng');
+            break;
+        case 'de':
+            console.log('deu');
+            break;
+        default:
+            console.log('language not supported');
+    }
+    </script>
+    <script>
+    var task148_num = 1;
+    var task148_res = task148_num >= 0 ? '1' : '2';
+
+    console.log(task148_res);
+    </script>
+    <script>
+    var task149_a = 2 * (3 - 1);
+    var task149_b = 6 - 2;
+
+    console.log(task149_a == task149_b);
+    </script>
+    <script>
+    var task150_a = 5 * (7 - 4);
+    var task150_b = 1 + 2 + 7;
+
+    console.log(task150_a > task150_b);
+    </script>
+    <script>
+    var task151_a = 2 ** 4;
+    var task151_b = 4 ** 2;
+
+    console.log(task151_a != task151_b);
+    </script>
+    <script>
+    var task152_isAdult = confirm('Вам уже есть 18 лет?');
+
+    if (task152_isAdult) {
+        console.log('Добро пожаловать! Здесь контент для взрослых.');
+    } else {
+        console.log('Доступ запрещён: вы не достигли 18 лет.');
+    }
+    </script>
+    <script>
+    var task153_age = 17;
+    var task153_adult;
+
+    if (task153_age >= 18) {
+        task153_adult = true;
+    } else {
+        task153_adult = false;
+    }
+
+    console.log(task153_adult);
+    </script>
+    <script>
+    var task154_age = 17;
+    var task154_adult;
+
+    if (task154_age >= 18) {
+        task154_adult = true;
+    } else {
+        task154_adult = false;
+    }
+
+    console.log(task154_adult);
+    </script>
+    <script>
+    var task155_age = 17;
+    var task155_adult;
+
+    if (task155_age >= 18) {
+        task155_adult = true;
+    } else {
+        task155_adult = false;
+    }
+
+    console.log(task155_adult);
+    </script>
+    <script>
+    var task156_age = 17;
+    var task156_res;
+
+    if (task156_age >= 18) {
+        if (task156_age <= 23) {
+            task156_res = 'от 18 до 23';
+        } else {
+            task156_res = 'больше 23';
+        }
+    } else {
+        task156_res = 'меньше 18';
+    }
+
+    console.log(task156_res);
+    </script>
+    <script>
+    var task157_age = 19;
+    var task157_res;
+
+    if (task157_age >= 18) {
+        if (task157_age <= 23) {
+            task157_res = 'от 18 до 23';
+        } else {
+            task157_res = 'больше 23';
+        }
+    } else {
+        task157_res = 'меньше 18';
+    }
+
+    console.log(task157_res);
+    </script>
+    <script>
+    var task158_min = 25;
+
+    if (task158_min >= 0 && task158_min <= 19) {
+        console.log('1 треть');
+    }
+
+    if (task158_min >= 20 && task158_min <= 39) {
+        console.log('2 треть');
+    }
+
+    if (task158_min >= 40 && task158_min <= 59) {
+        console.log('3 треть');
+    }
+    </script>
+    <script>
+    var task159_arr = [10, 20, 30];
+
+    if (task159_arr.length === 3) {
+        console.log(task159_arr[0] + task159_arr[1] + task159_arr[2]);
+    }
+    </script>
+    <script>
+    var task160_str = 'apple';
+
+    if (task160_str[0] === 'a') {
+        console.log('начинается на a');
+    }
+    </script>
+    <script>
+    var task161_str = 'box';
+
+    if (task161_str[task161_str.length - 1] === 'x') {
+        console.log('заканчивается на x');
+    }
+    </script>
+    <script>
+    var task162_str = 'banana';
+
+    if (task162_str[0] === 'a' || task162_str[0] === 'b') {
+        console.log('начинается на a или b');
+    }
+    </script>
+    <script>
+    var task163_num = 120;
+
+    if (task163_num % 10 === 0) {
+        console.log('последняя цифра — ноль');
+    }
+    </script>
+    <script>
+    var task164_num = 47;
+
+    if (task164_num % 10 === 0 || task164_num % 10 === 2 || task164_num % 10 === 4 || task164_num % 10 === 6 || task164_num % 10 === 8) {
+        console.log('чётное');
+    } else {
+        console.log('нечётное');
+    }
+    </script>
+    <script>
+    var task165_num = 10;
+
+    if (task165_num % 2 === 0) {
+        console.log('чётное');
+    } else {
+        console.log('нечётное');
+    }
+    </script>
+    <script>
+    var task166_num = 15;
+
+    if (task166_num % 3 === 0) {
+        console.log('делится на 3');
+    } else {
+        console.log('не делится на 3');
+    }
+    </script>
+    <script>
+    var task180_month = 5;
+
+    if (task180_month === 12 || task180_month === 1 || task180_month === 2) {
+        console.log('зима');
+    } else if (task180_month >= 3 && task180_month <= 5) {
+        console.log('весна');
+    } else if (task180_month >= 6 && task180_month <= 8) {
+        console.log('лето');
+    } else if (task180_month >= 9 && task180_month <= 11) {
+        console.log('осень');
+    } else {
+        console.log('неверный месяц');
+    }
+    </script>
+    <script>
+    var task181_str = 'abcde';
+
+    if (task181_str[0] === 'a') {
+        console.log('первый символ — a');
+    } else {
+        console.log('первый символ — не a');
+    }
+    </script>
+    <script>
+    var task182_num = 12345;
+    var task182_first = String(task182_num)[0];
+
+    if (task182_first === '1' || task182_first === '2' || task182_first === '3') {
+        console.log('первая цифра — 1, 2 или 3');
+    } else {
+        console.log('первая цифра — другая');
+    }
+    </script>
+    <script>
+    var task183_num = 123;
+
+    var task183_str = String(task183_num);
+    var task183_sum = Number(task183_str[0]) + Number(task183_str[1]) + Number(task183_str[2]);
+
+    console.log(task183_sum);
+    </script>
+    <script>
+    var task184_num = '123033';
+
+    var task184_sum1 = Number(task184_num[0]) + Number(task184_num[1]) + Number(task184_num[2]);
+    var task184_sum2 = Number(task184_num[3]) + Number(task184_num[4]) + Number(task184_num[5]);
+
+    if (task184_sum1 === task184_sum2) {
+        console.log('суммы равны');
+    } else {
+        console.log('суммы не равны');
+    }
+    </script>
+</body>
+</html>

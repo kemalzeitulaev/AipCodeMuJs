@@ -1,0 +1,210 @@
+№111
+
++++
++++
++++
+---
++++
+
+№112
+
+---
+---
+---
++++
++++
+
+№114
+
+---
++++
++++
++++
++++
++++
+---
++++
+
+№ 115
+
+&& потом ||
+
+№ 116
+
+((task106_num > 5) && (task106_num < 10)) || (task106_num == 20)
+(task107_num > 5) || ((task107_num > 0) && (task107_num < 3))
+(task108_num == 9) || ((task108_num > 10) && (task108_num < 20)) || ((task108_num > 20) && (task108_num < 30))
+
+
+№119
+
+false, 0, -0, '', null, undefined, NaN
++++
+---
+---
+---
++++
+---
+---
+
+№ 122
+
++++
++++
+---
+---
+---
+---
+---
+---
++++
++++
+
+№ 141
+
+<script>
+    var task168_num1 = '1';
+    var task168_num2 = '2';
+
+    if (Number(task168_num1) + Number(task168_num2) === 3) {
+        console.log('+++');
+    } else {
+        console.log('---');
+    }
+</script>
+
+<script>
+    var task169_num1 = '1';
+    var task169_num2 = '2';
+
+    if (Number(task169_num1) + Number(task169_num2) === 3) {
+        console.log('+++');
+    } else {
+        console.log('---');
+    }
+</script>
+
+<script>
+    var task170_num = 123;
+
+    if (String(task170_num)[0] === '1') {
+        console.log('+++');
+    } else {
+        console.log('---');
+    }
+</script>
+
+<script>
+    var task171_num = 123;
+
+    if (String(task171_num)[0] === '1') {
+        console.log('+++');
+    } else {
+        console.log('---');
+    }
+</script>
+
+<script>
+    var task172_num = 123;
+
+    if (String(task172_num)[0] === '1') {
+        console.log('+++');
+    } else {
+        console.log('---');
+    }
+</script>
+
+<script>
+    var task173_num = 123;
+    var task173_first = String(task173_num)[0];
+
+    if (task173_first === '1') {
+        console.log('+++');
+    } else {
+        console.log('---');
+    }
+</script>
+
+<script>
+    var task174_num = 12;
+
+    if (String(task174_num).length === 2) {
+        console.log('+++');
+    } else {
+        console.log('---');
+    }
+</script>
+
+
+<script>
+    var task175_num = 12;
+    var task175_str = String(task175_num);
+
+    if (task175_str.length === 2) {
+        console.log('+++');
+    } else {
+        console.log('---');
+    }
+</script>
+
+
+<script>
+    var task176_num = 12;
+
+    if (String(task176_num).length === 2) {
+        console.log('+++');
+    } else {
+        console.log('---');
+    }
+</script>
+
+
+<script>
+    var task177_num = 12;
+
+    if (String(task177_num).length === 2) {
+        console.log('+++');
+    } else {
+        console.log('---');
+    }
+</script>
+
+
+
+<script>
+    var task178_num = 12;
+
+    if (String(task178_num).length === 2) {
+        console.log('+++');
+    } else {
+        console.log('---');
+    }
+</script>
+
+
+<script>
+    var task179_num = '123033';
+
+    var task179_sum1 = Number(task179_num[0]) + Number(task179_num[1]) + Number(task179_num[2]);
+    var task179_sum2 = Number(task179_num[3]) + Number(task179_num[4]) + Number(task179_num[5]);
+
+    if (task179_sum1 === task179_sum2) {
+        console.log('суммы равны');
+    } else {
+        console.log('суммы не равны');
+    }
+</script>
+
+
+
+
+
+№
+
+
+
+№
+
+
+
+№
