@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+    <script>
+        function showName() {
+        console.log('Kemal');
+        }
+        showName();
+
+        function getSum() {
+            let sum = 0;
+            for (let i = 1; i <= 100; i++) {
+                sum += i;
+            }
+            console.log(sum);
+        }
+        getSum();
+    </script>
+    <script>
+        function getCube(num) {
+            console.log(num ** 3);
+        }
+        getCube(2);
+        getCube(3);
+        getCube(4);
+
+        function checkNumber(num2) {
+            if (num2 > 0) {
+                console.log('+++');
+            } else if (num2 < 0) {
+                console.log('---');
+            }
+        }
+        checkNumber(5);
+        checkNumber(-3);
+    </script>
+    <script>
+        function getSum(num3, num4, num5) {
+            console.log(num3 + num4 + num5);
+        }
+        getSum(1, 2, 3);
+        getSum(10, 20, 30);
+    </script>
+    <script> 
+        function func(num6, num7, num8) {
+            console.log(num6 + num7 + num8);
+        }
+        let param1 = 1;
+        let param2 = 2;
+        let param3 = 3;
+        func(param1, param2, param3);
+    </script>
+    <script>
+        function getCube(num12) {
+            return num12 ** 3;
+        }
+        let res = getCube(3);
+        console.log(res);
+
+        function getSqrt(num13) {
+            return Math.sqrt(num13);
+        }
+        let res2 = getSqrt(3);
+        let res3 = getSqrt(4);
+        console.log(res2 + res3);
+    </script>
+    <script>
+        function sqrt(num14) {
+            return Math.sqrt(num14);
+        }
+        function round(num15) {
+            return num15.toFixed(3);
+        }
+        console.log(round(sqrt(2)));
+
+        function sqrt2(num16) {
+            return Math.sqrt(num16);
+        }
+        function sum(num17, num18, num19) {
+            return num17 + num18 + num19;
+        }
+        let res4 = sum(sqrt2(2), sqrt2(3), sqrt2(4));
+        console.log(res4);
+
+        function sqrt3(num20) {
+            return Math.sqrt(num20);
+        }
+        function sum2(num21, num22, num23) {
+            return num21 + num22 + num23;
+        }
+        function round2(num24) {
+            return num24.toFixed(3);
+        }
+        let res5 = round2(sum2(sqrt3(2), sqrt3(3), sqrt3(4)));
+        console.log(res5);
+    </script>
+    <script>
+        function func4(num28) {
+            let sum2 = 0;
+            for (let i2 = 1; i2 <= num28; i2++) {
+                sum2 += i2;
+            }
+            return sum2;
+        }
+        console.log(func4(5));
+    </script>
+    <script> 
+        function func5(num29) {
+            let count = 0;
+            while (num29 >= 10) {
+                num29 = num29 / 2;
+                count++;
+            }
+            return count;
+        }
+        console.log(func5(100));
+        console.log(func5(50));
+        console.log(func5(8));
+    </script>
+    <script>
+        function func(num1, num2) {
+            if (num1 > 0 && num2 > 0) {
+                return num1 * num2;
+            } else {
+                return num1 - num2;
+            }
+        }
+        console.log(func(3, 4));
+    </script>
+    <script>
+        function isEven(arr2) {
+            for (let elem2 of arr2) {
+                if (elem2 % 2 !== 0) {
+                    return false;
+                }
+            }
+
+            return true;
+        }
+        console.log(isEven([2, 4, 6, 8]));
+        console.log(isEven([2, 3, 6, 8]));
+
+        function areDigitsOdd(num30) {
+            while (num30 > 0) {
+                let digit2 = num30 % 10;
+                if (digit2 % 2 === 0) {
+                    return false;
+                }
+                num30 = Math.floor(num30 / 10);
+            }
+            return true;
+        }
+        console.log(areDigitsOdd(1357));
+        console.log(areDigitsOdd(1358));
+
+        function hasDuplicates(arr3) {
+            for (let i3 = 0; i3 < arr3.length - 1; i3++) {
+                if (arr3[i3] === arr3[i3 + 1]) {
+                    return true;
+                }
+            }
+            return false;
+        }
+        console.log(hasDuplicates([1, 2, 2, 3]));
+        console.log(hasDuplicates([1, 2, 3, 4]));
+    </script>
+    <script>
+        function func2(a2, b2) {
+            return a2 == b2;
+        }
+
+        function func3(a3, b3) {
+            return a3 != b3;
+        }
+
+        function func4(a4, b4) {
+            return a4 + b4 >= 10;
+        }
+        
+        function func5(num31) {
+            return num31 >= 0;
+        }
+    </script>
+    <script>
+        function getNum1() {
+            return 3;
+        }
+        function getNum2() {
+            return 5;
+        }
+        console.log(getNum1() + getNum2());
+
+        function getSum3(arr9) {
+            let sum6 = 0;
+            for (let elem6 of arr9) {
+                sum6 += elem6;
+            }
+            return sum6;
+        }
+        console.log(getSum3([1, 2, 3, 4, 5]));
+
+        let arr10 = [1, 2, 3, 4, 5];
+        function getSum4(arr11) {
+            let sum7 = 0;
+            for (let elem7 of arr11) {
+                sum7 += elem7;
+            }
+            console.log(sum7);
+        }
+        getSum4(arr10);
+
+        function getNum3() {
+            return 3;
+        }
+
+        function getNum4() {
+            return 5;
+        }
+
+        console.log(getNum3() + getNum4());
+
+        let sum8 = getSum5([1, 2, 3, 4, 5]);
+        console.log(sum8);
+        function getSum5(arr12) {
+            let total = 0;
+            for (let elem8 of arr12) {
+                total += elem8;
+            }
+            return total;
+        }
+
+        let res7 = getSum6([1, 2, 3, 4, 5]);
+        console.log(res7);
+        function getSum6(arr13) {
+            let total2 = 0;
+            for (let elem9 of arr13) {
+                total2 += elem9;
+            }
+            return total2;
+        }
+
+        function addZero(num32) {
+            if (num32 <= 9) {
+                return '0' + num32;
+            }
+            return num32;
+        }
+        console.log(addZero(5)); 
+        console.log(addZero(12));
+
+        let arr14 = [1, 2, 3, 4, 5];
+        let result2 = getSum7(arr14);
+        console.log(result2);
+        function getSum7(arr15) {
+            let total3 = 0;
+            for (let elem10 of arr15) {
+                total3 += elem10;
+            }
+            return total3;
+        }
+
+        let num33 = 12345;
+        let result3 = getDigitsSum2(num33);
+        console.log(result3);
+        function getDigitsSum2(num34) {
+            let digits = String(num34).split('');
+            let total4 = 0;
+            for (let elem11 of digits) {
+                total4 += Number(elem11);
+            }
+            return total4;
+        }
+
+        function isPrime2(num35) {
+            if (num35 < 2) {
+                return false;
+            }
+            for (let i4 = 2; i4 < num35; i4++) {
+                if (num35 % i4 === 0) {
+                    return false;
+                }
+            }
+            return true;
+        }
+        console.log(isPrime2(13));
+        console.log(isPrime2(12));
+        console.log(isPrime2(1)); 
+    </script>
+    <script>
+        function getDivisors(num36) {
+            let divisors = [];
+            for (let i5 = 1; i5 <= num36; i5++) {
+                if (num36 % i5 === 0) {
+                    divisors.push(i5);
+                }
+            }
+            return divisors;
+        }
+        console.log(getDivisors(12));
+
+        function getCommonDivisors(num37, num38) {
+            let divisors2 = [];
+            for (let i6 = 1; i6 <= Math.min(num37, num38); i6++) {
+                if (num37 % i6 === 0 && num38 % i6 === 0) {
+                    divisors2.push(i6);
+                }
+            }
+            return divisors2;
+        }
+        console.log(getCommonDivisors(12, 18));
+
+        function getDigitsSum3(num39) {
+            let digits2 = String(Math.abs(num39)).split('');
+            let sum9 = 0;
+            for (let elem12 of digits2) {
+                sum9 += Number(elem12);
+            }
+            return sum9;
+        }
+        console.log(getDigitsSum3(12345));
+
+        function getCurrentDay() {
+            let days = [
+                'воскресенье',
+                'понедельник',
+                'вторник',
+                'среда',
+                'четверг',
+                'пятница',
+                'суббота'
+            ];
+            return days[new Date().getDay()];
+        }
+        console.log(getCurrentDay());
+
+        function getDayOfWeek(date2) {
+            let days2 = [
+                'воскресенье',
+                'понедельник',
+                'вторник',
+                'среда',
+                'четверг',
+                'пятница',
+                'суббота'
+            ];
+            return days2[new Date(date2).getDay()];
+        }
+        console.log(getDayOfWeek('2026-10-26'));
+
+        function getDays(seconds2) {
+            return seconds2 / 86400;
+        }
+        console.log(getDays(172800)); 
+        console.log(getDays(43200));  
+
+        function isLeapYear(year2) {
+            return year2 % 400 === 0 ||
+                (year2 % 4 === 0 && year2 % 100 !== 0);
+        }
+        console.log(isLeapYear(2024)); 
+        console.log(isLeapYear(1900)); 
+        console.log(isLeapYear(2000));
+
+        function isPrime3(num40) {
+            if (num40 < 2) {
+                return false;
+            }
+            for (let i7 = 2; i7 < num40; i7++) {
+                if (num40 % i7 === 0) {
+                    return false;
+                }
+            }
+            return true;
+        }
+        console.log(isPrime3(7)); 
+        console.log(isPrime3(12)); 
+        console.log(isPrime3(1));  
+    </script>
+	</body>
+</html>

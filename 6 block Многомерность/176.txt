@@ -1,0 +1,251 @@
+176:
+№1:
+let arr = [];
+for (let i = 0; i < 3; i++) {
+    arr[i] = [];
+
+    for (let j = 1; j <= 5; j++) {
+        arr[i].push(j);
+    }
+}
+console.log(arr);
+
+№2:
+let arr = [];
+for (let i = 0; i < 3; i++) {
+    arr[i] = [];
+
+    for (let j = 1; j <= 5; j++) {
+        arr[i].push(j);
+    }
+}
+console.log(arr);
+
+№3:
+let arr = [];
+for (let i = 0; i < 3; i++) {
+    arr[i] = [];
+
+    for (let j = 1; j <= 5; j++) {
+        arr[i].push(j);
+    }
+}
+console.log(arr);
+
+№4:
+let arr = [];
+for (let i = 0; i < 3; i++) {
+    arr[i] = [];
+
+    for (let j = 1; j <= 5; j++) {
+        arr[i].push(j);
+    }
+}
+console.log(arr);
+
+№5:
+let arr = [];
+for (let i = 0; i < 3; i++) {
+    arr[i] = [];
+
+    for (let j = 1; j <= 5; j++) {
+        arr[i].push(j);
+    }
+}
+console.log(arr);
+
+№6:
+let arr = [];
+for (let i = 0; i < 3; i++) {
+    arr[i] = [];
+
+    for (let j = 1; j <= 5; j++) {
+        arr[i].push(j);
+    }
+}
+console.log(arr);
+177:
+№4
+let arr = [];
+let k = 1;
+for (let i = 0; i < 3; i++) {
+    arr[i] = [];
+    for (let j = 0; j < 3; j++) {
+        arr[i][j] = k;
+        k++;
+    }
+}
+console.log(arr);
+№5
+let arr = [];
+let k = 1;
+for (let i = 0; i < 3; i++) {
+    arr[i] = [];
+    for (let j = 0; j < 3; j++) {
+        arr[i][j] = k;
+        k++;
+    }
+}
+console.log(arr);
+№6
+let arr = [];
+let k = 1;
+for (let i = 0; i < 3; i++) {
+    arr[i] = [];
+    for (let j = 0; j < 3; j++) {
+        arr[i][j] = k;
+        k++;
+    }
+}
+console.log(arr);
+№7
+let arr = [];
+let k = 1;
+for (let i = 0; i < 3; i++) {
+    arr[i] = [];
+    for (let j = 0; j < 3; j++) {
+        arr[i][j] = k;
+        k++;
+    }
+}
+console.log(arr);
+№8
+let arr = [];
+for (let i = 0, k = 1; i < 3; i++) {
+    arr[i] = [];
+    for (let j = 0; j < 3; j++) {
+        arr[i][j] = k++;
+    }
+}
+console.log(arr);
+№9
+let arr = [];
+for (let i = 0, k = 1; i < 3; i++) {
+    arr[i] = [];
+    for (let j = 0; j < 3; j++) {
+        arr[i][j] = k++;
+    }
+}
+console.log(arr);
+№10
+let arr = [];
+for (let i = 0, k = 1; i < 3; i++) {
+    arr[i] = [];
+    for (let j = 0; j < 3; j++, k++) {
+        arr[i][j] = k;
+    }
+}
+console.log(arr);
+let arr = [];
+№11
+for (let i = 0, k = 1; i < 3; i++) {
+    arr[i] = [];
+    for (let j = 0; j < 3; j++) {
+        arr[i][j] = k++;
+    }
+}
+console.log(arr);
+№12
+let arr = [];
+let k = 1;
+for (let i = 0; i < 3; i++) {
+    arr[i] = [];
+    for (let j = 0; j < 3; j++) {
+        arr[i][j] = k;
+        k++;
+    }
+}
+console.log(arr);
+№13
+let arr = [];
+for (let i = 0, k = 1; i < 3; i++) {
+    arr[i] = [];
+    for (let j = 0; j < 3; j++) {
+        arr[i][j] = k++;
+    }
+}
+console.log(arr);
+183:
+№1
+let affairs = {
+    '2018': {
+        11: {
+            29: ['name111', 'name112', 'name113'],
+            30: ['name121', 'name122', 'name123'],
+        },
+        12: {
+            30: ['name211', 'name212', 'name213'],
+            31: ['name221', 'name222', 'name223'],
+        },
+    },
+    '2019': {
+        12: {
+            29: ['name311', 'name312', 'name313'],
+            30: ['name321', 'name322', 'name323'],
+            31: ['name331', 'name332', 'name333'],
+        }
+    },
+};
+let year = '2018';
+let month = 11;
+let day = 29;
+console.log(affairs[year][month][day]);
+
+№2
+let obj = {
+    key1: {
+        key2: '12',
+        key3: '13',
+    },
+    key2: {
+        key4: '24',
+        key5: '25',
+    },
+};
+let key1 = 'key2';
+let key2 = 'key4';
+console.log(obj[key1][key2]);
+
+№3
+let obj = {
+    key1: {
+        key2: '12',
+        key3: '13',
+    },
+    key2: {
+        key4: '24',
+        key5: '25',
+    },
+};
+let key1 = 'key2';
+let key2 = 'key4';
+console.log(obj[key1][key2]);
+
+№4
+let obj = {
+    key1: {
+        key2: '12',
+        key3: '13',
+    },
+    key2: {
+        key4: '24',
+        key5: '25',
+    },
+};
+let key1 = 'key2';
+let key2 = 'key4';
+console.log(obj[key1][key2]);
+
+№5
+let obj = {
+    key1: {
+        key2: '12',
+        key3: '13',
+    },
+    key2: {
+        key4: '24',
+        key5: '25',
+    },
+};
+let key1 = 'key2';
+console.log(obj[key1]['key4']);

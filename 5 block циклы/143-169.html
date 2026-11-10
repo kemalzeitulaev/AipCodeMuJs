@@ -1,0 +1,1029 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Циклы в JavaScript</title>
+</head>
+<body>
+<script>
+    var task185_arr = ['a', 'b', 'c', 'd', 'e'];
+
+    for (var task185_elem of task185_arr) {
+        console.log(task185_elem);
+    }
+</script>
+<script>
+    var task186_obj = { x: 1, y: 2, z: 3 };
+
+    for (var task186_key in task186_obj) {
+        console.log(task186_key);
+    }
+</script>
+<script>
+    var task187_obj = { x: 1, y: 2, z: 3 };
+
+    for (var task187_key in task187_obj) {
+        console.log(task187_obj[task187_key]);
+    }
+</script>
+<script>
+    var task188_i = 1;
+
+    while (task188_i <= 100) {
+        console.log(task188_i);
+        task188_i++;
+    }
+</script>
+<script>
+    var task189_i = 11;
+
+    while (task189_i <= 33) {
+        console.log(task189_i);
+        task189_i++;
+    }
+</script>
+<script>
+    var task190_i = 100;
+
+    while (task190_i >= 1) {
+        console.log(task190_i);
+        task190_i--;
+    }
+</script>
+<script>
+    var task191_num = 1;
+    var task191_count = 0;
+
+    while (task191_num <= 1000) {
+        task191_num = task191_num * 3;
+        task191_count++;
+    }
+
+    console.log('итоговое число: ' + task191_num);
+    console.log('количество итераций: ' + task191_count);
+</script>
+<script>
+    for (var task192_i = 1; task192_i <= 100; task192_i++) {
+        console.log(task192_i);
+    }
+</script>
+<script>
+    for (var task193_i = 11; task193_i <= 33; task193_i++) {
+        console.log(task193_i);
+    }
+</script>
+<script>
+    for (var task194_i = 0; task194_i <= 100; task194_i += 2) {
+        console.log(task194_i);
+    }
+</script>
+<script>
+    for (var task195_i = 1; task195_i <= 99; task195_i += 2) {
+        console.log(task195_i);
+    }
+</script>
+<script>
+    for (var task196_i = 100; task196_i >= 0; task196_i--) {
+        console.log(task196_i);
+    }
+</script>
+<script>
+    var task197_arr = ['a', 'b', 'c', 'd', 'e'];
+
+    for (var task197_i = 0; task197_i < task197_arr.length; task197_i++) {
+        console.log(task197_arr[task197_i]);
+    }
+</script>
+<script>
+    var task198_arr = ['a', 'b', 'c', 'd', 'e'];
+
+    for (var task198_i = 1; task198_i < task198_arr.length - 1; task198_i++) {
+        console.log(task198_arr[task198_i]);
+    }
+</script>
+<script>
+    var task199_arr = ['a', 'b', 'c', 'd', 'e'];
+
+    for (var task199_i = task199_arr.length - 1; task199_i >= 0; task199_i--) {
+        console.log(task199_arr[task199_i]);
+    }
+</script>
+<script>
+    var task200_arr = ['a', 'b', 'c', 'd', 'e'];
+
+    for (var task200_i = 0; task200_i < task200_arr.length; task200_i++) {
+        console.log(task200_arr[task200_i]);
+    }
+</script>
+<script>
+    var task201_arr = [2, 5, 9, 15, 1, 4];
+
+    for (var task201_i = 0; task201_i < task201_arr.length; task201_i++) {
+        if (task201_arr[task201_i] > 3 && task201_arr[task201_i] < 10) {
+            console.log(task201_arr[task201_i]);
+        }
+    }
+</script>
+<script>
+    var task202_obj = { a: 1, b: 2, c: 3, d: 4, e: 5 };
+
+    for (var task202_key in task202_obj) {
+        if (task202_obj[task202_key] % 2 !== 0) {
+            console.log(task202_obj[task202_key]);
+        }
+    }
+</script>
+<script>
+    var task203_sum = 0;
+
+    for (var task203_i = 2; task203_i <= 100; task203_i += 2) {
+        task203_sum += task203_i;
+    }
+
+    console.log(task203_sum);
+</script>
+<script>
+    var task204_sum = 0;
+
+    for (var task204_i = 1; task204_i <= 99; task204_i += 2) {
+        task204_sum += task204_i;
+    }
+
+    console.log(task204_sum);
+</script>
+<script>
+    var task205_product = 1;
+
+    for (var task205_i = 1; task205_i <= 20; task205_i++) {
+        task205_product *= task205_i;
+    }
+
+    console.log(task205_product);
+</script>
+<script>
+    var task206_arr = [2, 5, 9, 3, 1, 4];
+    var task206_sum = 0;
+
+    for (var task206_i = 0; task206_i < task206_arr.length; task206_i++) {
+        task206_sum += task206_arr[task206_i];
+    }
+
+    console.log(task206_sum);
+</script>
+<script>
+    var task207_arr = [2, 5, 9, 3, 1, 4];
+    var task207_sum = 0;
+
+    for (var task207_i = 0; task207_i < task207_arr.length; task207_i++) {
+        if (task207_arr[task207_i] % 2 === 0) {
+            task207_sum += task207_arr[task207_i];
+        }
+    }
+
+    console.log(task207_sum);
+</script>
+<script>
+    var task208_arr = [2, 5, 9, 3, 1, 4];
+    var task208_sum = 0;
+
+    for (var task208_i = 0; task208_i < task208_arr.length; task208_i++) {
+        task208_sum += task208_arr[task208_i] * task208_arr[task208_i];
+    }
+
+    console.log(task208_sum);
+</script>
+<script>
+    var task209_arr = [2, 5, 9, 3, 1, 4];
+    var task209_product = 1;
+
+    for (var task209_i = 0; task209_i < task209_arr.length; task209_i++) {
+        task209_product *= task209_arr[task209_i];
+    }
+
+    console.log(task209_product);
+</script>
+<script>
+    var task210_str = '';
+
+    for (var task210_i = 0; task210_i < 5; task210_i++) {
+        task210_str += '-';
+    }
+
+    console.log(task210_str);
+</script>
+<script>
+    var task211_str = '';
+
+    for (var task211_i = 1; task211_i <= 9; task211_i++) {
+        task211_str += task211_i;
+    }
+
+    console.log(task211_str);
+</script>
+<script>
+    var task212_str = '';
+
+    for (var task212_i = 9; task212_i >= 1; task212_i--) {
+        task212_str += task212_i;
+    }
+
+    console.log(task212_str);
+</script>
+<script>
+    var task213_str = '';
+
+    for (var task213_i = 1; task213_i <= 9; task213_i++) {
+        task213_str += '-' + task213_i;
+    }
+    task213_str += '-';
+
+    console.log(task213_str);
+</script>
+<script>
+    for (var task214_num = 10; task214_num <= 1000; task214_num++) {
+        var task214_first = String(task214_num)[0];
+        console.log(task214_first);
+    }
+</script>
+<script>
+    for (var task215_num = 10; task215_num <= 1000; task215_num++) {
+        var task215_str = String(task215_num);
+        var task215_sum = Number(task215_str[0]) + Number(task215_str[1]);
+        console.log(task215_sum);
+    }
+</script>
+<script>
+    for (var task216_num = 10; task216_num <= 1000; task216_num++) {
+        if (String(task216_num)[0] === '1') {
+            console.log(task216_num);
+        }
+    }
+</script>
+<script>
+    for (var task217_num = 10; task217_num <= 1000; task217_num++) {
+        var task217_str = String(task217_num);
+        var task217_sum = Number(task217_str[0]) + Number(task217_str[1]);
+
+        if (task217_sum === 5) {
+            console.log(task217_num);
+        }
+    }
+</script>
+<script>
+    var task218_arr = [1, 2, 3, 4, 5];
+
+    for (var task218_elem of task218_arr)
+        console.log(task218_elem);
+</script>
+<script>
+    var task220_arr = [5, 8, 3, 12, 0, 7, 9];
+
+    for (var task220_i = 0; task220_i < task220_arr.length; task220_i++) {
+        if (task220_arr[task220_i] === 0) {
+            break;
+        }
+        console.log(task220_arr[task220_i]);
+    }
+</script>
+<script>
+    var task221_arr = [4, 7, 2, 9, -3, 8, 5];
+    var task221_sum = 0;
+
+    for (var task221_i = 0; task221_i < task221_arr.length; task221_i++) {
+        if (task221_arr[task221_i] < 0) {
+            break;
+        }
+        task221_sum += task221_arr[task221_i];
+    }
+
+    console.log(task221_sum);
+</script>
+<script>
+    var task222_arr = [7, 2, 9, 3, 5, 3, 1];
+    var task222_pos = -1;
+
+    for (var task222_i = 0; task222_i < task222_arr.length; task222_i++) {
+        if (task222_arr[task222_i] === 3) {
+            task222_pos = task222_i;
+            break;
+        }
+    }
+
+    console.log(task222_pos);
+</script>
+<script>
+    var task223_sum = 0;
+    var task223_count = 0;
+
+    for (var task223_i = 1; task223_i <= 1000; task223_i++) {
+        task223_sum += task223_i;
+        task223_count++;
+
+        if (task223_sum > 100) {
+            break;
+        }
+    }
+
+    console.log('количество: ' + task223_count);
+    console.log('сумма: ' + task223_sum);
+</script>
+<script>
+    for (var task224_i = 1; task224_i <= 100; task224_i++) {
+        if (task224_i % 2 !== 0) {
+            continue;
+        }
+        console.log(task224_i);
+    }
+</script>
+<script>
+    var task225_str = '';
+
+    for (var task225_i = 1; task225_i <= 9; task225_i++) {
+        for (var task225_j = 1; task225_j <= 3; task225_j++) {
+            task225_str += task225_i;
+        }
+    }
+
+    console.log(task225_str);
+</script>
+<script>
+    var task226_str = '';
+
+    for (var task226_i = 1; task226_i <= 3; task226_i++) {
+        for (var task226_j = 1; task226_j <= 3; task226_j++) {
+            task226_str += task226_i + '' + task226_j + ' ';
+        }
+    }
+
+    console.log(task226_str);
+</script>
+<script>
+    var task227_arr = [];
+
+    for (var task227_i = 1; task227_i <= 10; task227_i++) {
+        task227_arr.push(task227_i);
+    }
+
+    console.log(task227_arr);
+</script>
+<script>
+    var task228_arr = [];
+
+    for (var task228_i = 0; task228_i < 10; task228_i++) {
+        task228_arr.push('x');
+    }
+
+    console.log(task228_arr);
+</script>
+<script>
+    var task229_arr = [3, -5, 8, -2, 7, 0, -1, 4];
+    var task229_positive = [];
+
+    for (var task229_i = 0; task229_i < task229_arr.length; task229_i++) {
+        if (task229_arr[task229_i] > 0) {
+            task229_positive.push(task229_arr[task229_i]);
+        }
+    }
+
+    console.log(task229_positive);
+</script>
+<script>
+    var task230_arr = [2, 3, 4, 5, 6];
+
+    for (var task230_i = 0; task230_i < task230_arr.length; task230_i++) {
+        task230_arr[task230_i] = task230_arr[task230_i] * task230_arr[task230_i];
+    }
+
+    console.log(task230_arr);
+</script>
+<script>
+    var task231_arr = [5, 6, 7, 8, 9];
+
+    for (var task231_i = 0; task231_i < task231_arr.length; task231_i++) {
+        task231_arr[task231_i] = task231_arr[task231_i] - 1;
+    }
+
+    console.log(task231_arr);
+</script>
+<script>
+    var task232_arr = [1, 2, 3, 4, 5];
+
+    for (var task232_i = 0; task232_i < task232_arr.length; task232_i++) {
+        task232_arr[task232_i] += 10;
+    }
+
+    console.log(task232_arr);
+</script>
+<script>
+    var task233_keys = ['a', 'b', 'c', 'd', 'e'];
+    var task233_values = [1, 2, 3, 4, 5];
+    var task233_obj = {};
+
+    for (var task233_i = 0; task233_i < task233_keys.length; task233_i++) {
+        task233_obj[task233_keys[task233_i]] = task233_values[task233_i];
+    }
+
+    console.log(task233_obj);
+</script>
+<script>
+    var task234_obj = { a: 1, b: 2, c: 3, d: 4, e: 5 };
+    var task234_even = {};
+
+    for (var task234_key in task234_obj) {
+        if (task234_obj[task234_key] % 2 === 0) {
+            task234_even[task234_key] = task234_obj[task234_key];
+        }
+    }
+
+    console.log(task234_even);
+</script>
+<script>
+    var task235_obj = { a: 1, b: 2, c: 3, d: 4, e: 5 };
+    var task235_flipped = {};
+
+    for (var task235_key in task235_obj) {
+        task235_flipped[task235_obj[task235_key]] = task235_key;
+    }
+
+    console.log(task235_flipped);
+</script>
+<script>
+    var task236_obj = { x: 1, y: 2, z: 3 };
+
+    for (var task236_key in task236_obj) {
+        task236_obj[task236_key] = task236_obj[task236_key] * task236_obj[task236_key];
+    }
+
+    console.log(task236_obj);
+</script>
+<script>
+    var task237_obj = { x: 1, y: 2, z: 3 };
+
+    for (var task237_key in task237_obj) {
+        task237_obj[task237_key] += 1;
+    }
+
+    console.log(task237_obj);
+</script>
+<script>
+    var task238_arr = ['a', 'b', 'c', 'd', 'e'];
+    var task238_found = false;
+
+    for (var task238_i = 0; task238_i < task238_arr.length; task238_i++) {
+        if (task238_arr[task238_i] === 'c') {
+            task238_found = true;
+            break;
+        }
+    }
+
+    if (task238_found) {
+        console.log('+++');
+    } else {
+        console.log('---');
+    }
+</script>
+<script>
+    var task239_num = 17;
+    var task239_isPrime = true;
+
+    if (task239_num < 2) {
+        task239_isPrime = false;
+    } else {
+        for (var task239_i = 2; task239_i < task239_num; task239_i++) {
+            if (task239_num % task239_i === 0) {
+                task239_isPrime = false;
+                break;
+            }
+        }
+    }
+
+    if (task239_isPrime) {
+        console.log('простое');
+    } else {
+        console.log('не простое');
+    }
+</script>
+<script>
+    var task240_arr = [10, 20, 30, 40, 21, 32, 51];
+    var task240_sum = 0;
+
+    for (var task240_i = 0; task240_i < task240_arr.length; task240_i++) {
+        var task240_first = String(task240_arr[task240_i])[0];
+
+        if (task240_first === '1' || task240_first === '2') {
+            task240_sum += task240_arr[task240_i];
+        }
+    }
+
+    console.log(task240_sum);
+</script>
+<script>
+    var task241_obj = { a: 10, b: 20, c: 30, d: 40, e: 50 };
+    var task241_sum = 0;
+
+    for (var task241_key in task241_obj) {
+        var task241_first = String(task241_obj[task241_key])[0];
+
+        if (task241_first === '1' || task241_first === '2') {
+            task241_sum += task241_obj[task241_key];
+        }
+    }
+
+    console.log(task241_sum);
+</script>
+<script>
+    for (var task242_i = 0; task242_i <= 10; task242_i++) {
+        console.log(task242_i);
+    }
+</script>
+<script>
+    for (var task243_i = 10; task243_i > 0; task243_i--) {
+        console.log(task243_i);
+    }
+</script>
+<script>
+    for (var task244_i = 10; task244_i >= 0; task244_i--) {
+        console.log(task244_i);
+    }
+</script>
+<script>
+    var task245_i = 0;
+
+    while (task245_i <= 10) {
+        console.log(task245_i);
+        task245_i++;
+    }
+</script>
+<script>
+    var task246_res = 0;
+
+    for (var task246_i = 1; task246_i <= 10; task246_i++) {
+        task246_res += task246_i;
+    }
+
+    console.log(task246_res); 
+</script>
+<script>
+    var task247_res = 1;
+
+    for (var task247_i = 1; task247_i <= 10; task247_i++) {
+        task247_res *= task247_i;
+    }
+
+    console.log(task247_res); 
+</script>
+<script>
+    var task248_arr = ['1', '2', '3', '4', '5'];
+    var task248_sum = 0;
+
+    for (var task248_elem of task248_arr) {
+        task248_sum += +task248_elem;
+    }
+
+    console.log(task248_sum); 
+</script>
+<script>
+    var task249_arr = ['1', '2', '3', '4', '5'];
+    var task249_sum = 0;
+
+    for (var task249_elem of task249_arr) {
+        task249_sum += +task249_elem;
+    }
+
+    console.log(task249_sum); 
+</script>
+<script>
+    var task250_arr = ['1', '2', '3', '4', '5'];
+    var task250_sum = 0;
+
+    for (var task250_elem of task250_arr) {
+        task250_sum += +task250_elem;
+    }
+
+    console.log(task250_sum); 
+</script>
+<script>
+    var task251_arr = ['1', '2', '3', '4', '5'];
+    var task251_sum = 0;
+
+    for (var task251_i = 0; task251_i < task251_arr.length; task251_i++) {
+        task251_sum += +task251_arr[task251_i];
+    }
+
+    console.log(task251_sum); 
+</script>
+<script>
+    var task252_arr = ['1', '2', '3', '4', '5'];
+    var task252_sum = 0;
+
+    for (var task252_i = 0; task252_i < task252_arr.length; task252_i++) {
+        task252_sum += +task252_arr[task252_i];
+    }
+
+    console.log(task252_sum); 
+</script>
+<script>
+    var task253_arr = ['1', '2', '3', '4', '5'];
+    var task253_sum = 0;
+
+    for (var task253_i = 0; task253_i < task253_arr.length; task253_i++) {
+        task253_sum += +task253_arr[task253_i];
+    }
+
+    console.log(task253_sum); 
+</script>
+<script>
+    var task254_arr = [1, 2, 3, 4, 5];
+
+    for (var task254_i = 0; task254_i < task254_arr.length; task254_i++) {
+        task254_arr[task254_i] = task254_arr[task254_i] ** 2;
+    }
+
+    console.log(task254_arr); 
+</script>
+<script>
+    var task255_arr = [];
+
+    for (var task255_i = 1; task255_i <= 5; task255_i++) {
+        task255_arr.push(task255_i);
+    }
+
+    console.log(task255_arr); 
+</script>
+<script>
+    var task256_obj = { a: 1, b: 2, c: 3 };
+    var task256_sum = 0;
+
+    for (var task256_key in task256_obj) {
+        task256_sum += task256_obj[task256_key];
+    }
+
+    console.log(task256_sum); 
+</script>
+<script>
+    var task257_obj = { a: 1, b: 2, c: 3 };
+    var task257_sum = 0;
+
+    for (var task257_key in task257_obj) {
+        task257_sum += task257_obj[task257_key];
+    }
+
+    console.log(task257_sum); 
+</script>
+<script>
+    var task258_arr = [1, 2, 3, 4, 5];
+    var task258_res = '---';
+
+    for (var task258_elem of task258_arr) {
+        if (task258_elem === 3) {
+            task258_res = '+++';
+            break;
+        }
+    }
+
+    console.log(task258_res); 
+</script>
+<script>
+    var task259_arr = [];
+
+    for (var task259_i = 1; task259_i <= 5; task259_i++) {
+        task259_arr.push(task259_i);
+    }
+
+    console.log(task259_arr); 
+</script>
+<script>
+    var task260_arr = [1, 2, 3, 4, 5];
+    var task260_res = false;
+
+    for (var task260_elem of task260_arr) {
+        if (task260_elem === 3) {
+            task260_res = true;
+            break;
+        }
+    }
+
+    console.log(task260_res); 
+</script>
+<script>
+    var task261_arr = [1, 2, 3, 4, 5];
+
+    for (var task261_elem of task261_arr) {
+        if (task261_elem % 2 === 0) {
+            console.log(task261_elem); 
+        }
+    }
+</script>
+<script>
+    var task262_arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+    var task262_res = [];
+
+    for (var task262_elem of task262_arr) {
+        if (task262_elem % 2 !== 0) {
+            task262_res.push(task262_elem);
+        }
+    }
+
+    console.log(task262_res); 
+</script>
+<script>
+    for (var task263_i = 1; task263_i <= 100; task263_i++) {
+        console.log(task263_i);
+    }
+</script>
+<script>
+    for (var task264_i = 100; task264_i >= 1; task264_i--) {
+        console.log(task264_i);
+    }
+</script>
+<script>
+    for (var task265_i = 2; task265_i <= 100; task265_i += 2) {
+        console.log(task265_i);
+    }
+</script>
+<script>
+    var task266_arr = [];
+
+    for (var task266_i = 0; task266_i < 10; task266_i++) {
+        task266_arr.push('x');
+    }
+
+    console.log(task266_arr);
+</script>
+<script>
+    var task267_arr = [];
+
+    for (var task267_i = 1; task267_i <= 10; task267_i++) {
+        task267_arr.push(task267_i);
+    }
+
+    console.log(task267_arr);
+</script>
+<script>
+    var task268_arr = [5, 12, 3, 8, 20, 7, -3, 0];
+    var task268_filtered = [];
+
+    for (var task268_i = 0; task268_i < task268_arr.length; task268_i++) {
+        if (task268_arr[task268_i] > 0 && task268_arr[task268_i] < 10) {
+            task268_filtered.push(task268_arr[task268_i]);
+        }
+    }
+
+    console.log(task268_filtered);
+</script>
+<script>
+    var task269_arr = [1, 2, 3, 4, 5, 6];
+    var task269_found = false;
+
+    for (var task269_i = 0; task269_i < task269_arr.length; task269_i++) {
+        if (task269_arr[task269_i] === 5) {
+            task269_found = true;
+            break;
+        }
+    }
+
+    console.log(task269_found);
+</script>
+<script>
+    var task270_arr = [10, 20, 30, 40, 50];
+    var task270_sum = 0;
+
+    for (var task270_i = 0; task270_i < task270_arr.length; task270_i++) {
+        task270_sum += task270_arr[task270_i];
+    }
+
+    console.log(task270_sum);
+</script>
+<script>
+    var task271_arr = [1, 2, 3, 4, 5];
+    var task271_sum = 0;
+
+    for (var task271_i = 0; task271_i < task271_arr.length; task271_i++) {
+        task271_sum += task271_arr[task271_i] * task271_arr[task271_i];
+    }
+
+    console.log(task271_sum);
+</script>
+<script>
+    var task272_arr = [10, 20, 30, 40, 50];
+    var task272_sum = 0;
+
+    for (var task272_i = 0; task272_i < task272_arr.length; task272_i++) {
+        task272_sum += task272_arr[task272_i];
+    }
+
+    var task272_avg = task272_sum / task272_arr.length;
+    console.log(task272_avg);
+</script>
+<script>
+    var task273_num = 5;
+    var task273_fact = 1;
+
+    for (var task273_i = 1; task273_i <= task273_num; task273_i++) {
+        task273_fact *= task273_i;
+    }
+
+    console.log(task273_fact);
+</script>
+<script>
+    var task274_arr = [];
+
+    for (var task274_i = 10; task274_i >= 1; task274_i--) {
+        task274_arr.push(task274_i);
+    }
+
+    console.log(task274_arr);
+</script>
+<script>
+    var task275_arr = [10, -5, 20, -3, 15, 7, -1];
+    var task275_sum = 0;
+
+    for (var task275_i = 0; task275_i < task275_arr.length; task275_i++) {
+        if (task275_arr[task275_i] > 0) {
+            task275_sum += task275_arr[task275_i];
+        }
+    }
+
+    console.log(task275_sum);
+</script>
+<script>
+    var task276_arr = [10, 20, 30, 50, 235, 3000];
+
+    for (var task276_i = 0; task276_i < task276_arr.length; task276_i++) {
+        var task276_first = String(task276_arr[task276_i])[0];
+
+        if (task276_first === '1' || task276_first === '2' || task276_first === '5') {
+            console.log(task276_arr[task276_i]);
+        }
+    }
+</script>
+<script>
+    var task277_arr = [10, 20, 30, 40, 50];
+
+    for (var task277_i = task277_arr.length - 1; task277_i >= 0; task277_i--) {
+        console.log(task277_arr[task277_i]);
+    }
+</script>
+<script>
+    var task278_arr = [0, 1, 2, 5, 4, 8, 6];
+
+    for (var task278_i = 0; task278_i < task278_arr.length; task278_i++) {
+        if (task278_arr[task278_i] === task278_i) {
+            console.log(task278_arr[task278_i]);
+        }
+    }
+</script>
+<script>
+    var task279_arr = [10, 20, 30, 40, 50];
+
+    for (var task279_i = 0; task279_i < task279_arr.length; task279_i++) {
+        document.write(task279_arr[task279_i] + '<br>');
+    }
+</script>
+<script>
+    var task280_arr = [10, 20, 30, 40, 50];
+
+    for (var task280_i = 0; task280_i < task280_arr.length; task280_i++) {
+        document.write('<p>' + task280_arr[task280_i] + '</p>');
+    }
+</script>
+<script>
+    var task281_days = ['Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб', 'Вс'];
+
+    for (var task281_i = 0; task281_i < task281_days.length; task281_i++) {
+        if (task281_i === 5 || task281_i === 6) {
+            document.write('<b>' + task281_days[task281_i] + '</b><br>');
+        } else {
+            document.write(task281_days[task281_i] + '<br>');
+        }
+    }
+</script>
+<script>
+    var task282_days = ['Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб', 'Вс'];
+    var task282_day = 3; 
+
+    for (var task282_i = 0; task282_i < task282_days.length; task282_i++) {
+        if (task282_i === task282_day) {
+            document.write('<i>' + task282_days[task282_i] + '</i><br>');
+        } else {
+            document.write(task282_days[task282_i] + '<br>');
+        }
+    }
+</script>
+<script>
+    var task283_obj = {
+        employee1: 100,
+        employee2: 200,
+        employee3: 300,
+        employee4: 400,
+        employee5: 500,
+        employee6: 600,
+        employee7: 700
+    };
+
+    for (var task283_key in task283_obj) {
+        task283_obj[task283_key] = task283_obj[task283_key] * 1.1;
+    }
+
+    console.log(task283_obj);
+</script>
+<script>
+    var task284_obj = {
+        employee1: 100,
+        employee2: 200,
+        employee3: 300,
+        employee4: 400,
+        employee5: 500,
+        employee6: 600,
+        employee7: 700
+    };
+
+    for (var task284_key in task284_obj) {
+        if (task284_obj[task284_key] <= 400) {
+            task284_obj[task284_key] = task284_obj[task284_key] * 1.1;
+        }
+    }
+
+    console.log(task284_obj);
+</script>
+<script>
+    var task285_arr1 = [1, 2, 3, 4, 5];
+    var task285_arr2 = [6, 7, 8, 9, 10];
+    var task285_obj = {};
+
+    for (var task285_i = 0; task285_i < task285_arr1.length; task285_i++) {
+        task285_obj[task285_arr1[task285_i]] = task285_arr2[task285_i];
+    }
+
+    console.log(task285_obj);
+</script>
+<script>
+    var task286_obj = { 1: 6, 2: 7, 3: 8, 4: 9, 5: 10 };
+    var task286_sumKeys = 0;
+    var task286_sumValues = 0;
+
+    for (var task286_key in task286_obj) {
+        task286_sumKeys += +task286_key;
+        task286_sumValues += task286_obj[task286_key];
+    }
+
+    var task286_result = task286_sumKeys / task286_sumValues;
+    console.log(task286_result);
+</script>
+<script>
+    var task287_obj = { a: 1, b: 2, c: 3, d: 4, e: 5 };
+    var task287_keys = [];
+    var task287_values = [];
+
+    for (var task287_key in task287_obj) {
+        task287_keys.push(task287_key);
+        task287_values.push(task287_obj[task287_key]);
+    }
+
+    console.log(task287_keys);
+    console.log(task287_values);
+</script>
+<script>
+    var task288_obj = {
+        1: 125,
+        2: 225,
+        3: 128,
+        4: 356,
+        5: 145,
+        6: 281,
+        7: 452
+    };
+    var task288_res = [];
+
+    for (var task288_key in task288_obj) {
+        var task288_first = String(task288_obj[task288_key])[0];
+
+        if (task288_first === '1' || task288_first === '2') {
+            task288_res.push(task288_obj[task288_key]);
+        }
+    }
+
+    console.log(task288_res);
+</script>
+<script>
+    var task289_arr = ['a', 'b', 'c', 'd', 'e'];
+    var task289_obj = {};
+
+    for (var task289_i = 0; task289_i < task289_arr.length; task289_i++) {
+        task289_obj[task289_i + 1] = task289_arr[task289_i];
+    }
+
+    console.log(task289_obj);
+</script>
+<script>
+    var task290_arr = ['a', 'b', 'c', 'd', 'e'];
+    var task290_obj = {};
+
+    for (var task290_i = 0; task290_i < task290_arr.length; task290_i++) {
+        task290_obj[task290_arr[task290_i]] = task290_i + 1;
+    }
+
+    console.log(task290_obj);
+</script>
+</body>
+</html>

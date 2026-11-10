@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Шаблон</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script>
+        function func() {
+            return '!';
+        }
+        console.log(func);
+    </script>
+    <script>
+        function func() {
+            return 'Привет, JavaScript!';
+        }
+
+        function func2() {
+            return 'Привет, JavaScript!';
+        }
+
+        console.log(func2());
+        function func3() {
+            return 'Привет, JavaScript!';
+        }
+        console.log(func3);
+
+        function func4() {
+            return 'Привет, JavaScript!';
+        }
+        func4 = 123;
+        console.log(func4);
+    </script>
+    <script>
+        function func1() {
+            return 3;
+        }
+
+        let func2 = func1;
+
+        console.log(func1() + func2());
+    </script>
+    <script>
+        let func1 = function() {
+            return 1;
+        };
+
+        let func2 = function() {
+            return 2;
+        };
+
+        console.log(func1() + func2());
+    </script>
+    <script>
+        func();
+        function func() {
+            console.log('Привет!');
+        }
+
+        func2();
+        let func2 = function() {
+            console.log('Привет!');
+        };
+    </script>
+    <script>
+            let func1 = function() {
+                console.log('!');
+            };
+
+            let func2 = function() {
+                console.log('!');
+            };
+
+            function func3() {
+                console.log('!');
+            }
+    </script>
+    <script>
+        let arr = [
+            function() {
+                return 1;
+            },
+            function() {
+                return 2;
+            },
+            function() {
+                return 3;
+            }
+        ];
+
+        console.log(arr[2]());
+
+        console.log(arr[0]() + arr[1]() + arr[2]());
+
+        for (let func of arr) {
+            console.log(func());
+        }
+    </script>
+    <script>
+        let obj = {
+            func1: function() {
+                return 1;
+            },
+            func2: function() {
+                return 2;
+            },
+            func3: function() {
+                return 3;
+            }
+        };
+        console.log(obj.func1() + obj.func2() + obj.func3());
+
+        for (let key in obj) {
+            console.log(obj[key]());
+        }
+    </script>
+    <script>
+        let math = {
+            sum: function(arr) {
+                let result = 0;
+                for (let num of arr) {
+                    result += num;
+                }
+                return result;
+            },
+
+            sumOfSquares: function(arr) {
+                let result2 = 0;
+                for (let num2 of arr) {
+                    result2 += num2 * num2;
+                }
+                return result2;
+            },
+
+            sumOfCubes: function(arr) {
+                let result3 = 0;
+                for (let num3 of arr) {
+                    result3 += num3 * num3 * num3;
+                }
+                return result3;
+            }
+        };
+    </script>
+</body>
+</html>
